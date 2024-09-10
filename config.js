@@ -1,4 +1,4 @@
-seeconst fs = require("fs");
+const fs = require("fs");
 const chalk = require("chalk");
 
 //to enable function - true
