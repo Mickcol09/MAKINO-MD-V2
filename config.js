@@ -11,13 +11,13 @@ global.antitags = false;
 
 
 //auto functioner
-global.autoTyping = false;                //make true to enable auto typing
+global.autoTyping = true;                //make true to enable auto typing
 global.autoRecord = true;                //make true to enable auto recording
 global.groupevent = true;                //This is the new variable for controlling group event handling.
 global.statusseen = false;                 //make true to view statuses 
 global.ANTI_BOT = false;
-global.PM_BLOCKER = false;
-global.CHATBOT = false;
+global.PM_BLOCKER = true;
+global.CHATBOT = true;
 
 global.SESSION_ID = process.env.SESSION_ID || ""
 global.Owner = ["2348155849292"]; //like 2347080968564 
